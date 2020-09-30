@@ -5,7 +5,7 @@ import io.vertx.core.http.HttpMethod;
 import java.util.HashSet;
 
 public class CorsHelper {
-  public HashSet<String> getAllowedHeaders() {
+  public static HashSet<String> getAllowedHeaders() {
     HashSet<String> set = new HashSet<>();
     set.add("x-requested-with");
     set.add("Access-Control-Allow-Origin");
@@ -19,7 +19,7 @@ public class CorsHelper {
     return set;
   }
 
-  public HashSet<HttpMethod> getAllowedMethods() {
+  public static HashSet<HttpMethod> getAllowedMethods() {
     HashSet<HttpMethod> set = new HashSet<>();
     set.add(HttpMethod.POST);
     set.add(HttpMethod.GET);
