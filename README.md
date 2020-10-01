@@ -1,4 +1,4 @@
-= Keyvalue-store
+= KeyValue-store
 
 Java 11, vertx, hazelcast
 
