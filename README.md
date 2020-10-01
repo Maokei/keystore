@@ -1,8 +1,6 @@
 = Keyvalue-store
 
-Java 11, vertx
-
-Communication over the eventbus with json
+Java 11, vertx, hazelcast
 
 == Building
 
