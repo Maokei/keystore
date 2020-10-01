@@ -26,7 +26,7 @@ public class MainVerticle extends AbstractVerticle {
         Vertx vertx  = res.result();
         ConfigRetriever cr = ConfigRetriever.create(vertx);
         cr.getConfig(config -> {
-          LOGGER.info("Git config");
+          LOGGER.info("Got config");
           if(config.succeeded()) {
             JsonObject conf = config.result();
             DeploymentOptions options = new DeploymentOptions().setConfig(conf);
