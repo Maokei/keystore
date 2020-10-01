@@ -1,0 +1,7 @@
+{
+  "http.port": 7777,
+  "publicKey":"",
+  "secretKey":"",
+  "cryptoAlgorithm":"RS256",
+  "expirationTime":""
+}
