@@ -1,6 +1,6 @@
 = KeyValue-store
 
-Java 11, vertx, hazelcast
+Java 11, vertx, hazelcast, Pub/Sub
 
 == Building
 
@@ -23,6 +23,7 @@ To run app with default config application:
 ```
 ./mvnw clean test
 cd target
+java -jar keyvalue-store-1.0.0-SNAPSHOT-fat.jar -conf ../config2.json
 java -jar keyvalue-store-1.0.0-SNAPSHOT-fat.jar -conf ../config2.json
 ```
 
